@@ -15,12 +15,12 @@ export default class App extends Component<Props> {
   componentWillMount() {
     // Initialize Firebase
    const config = {
-     apiKey: 'AIzaSyA73itsa7CsxyXxKADE0NvNuPyvSUGkgBk',
-     authDomain: 'auth-c1519.firebaseapp.com',
-     databaseURL: 'https://auth-c1519.firebaseio.com',
-     projectId: 'auth-c1519',
-     storageBucket: 'auth-c1519.appspot.com',
-     messagingSenderId: '632036770065'
+     apiKey: '',// Enter API key from Firebase
+     authDomain: '',// enter AuthDomain from Firebase
+     databaseURL: '', // enter databaseURL from Firebase
+     projectId: '', //enter projectId from Firebase
+     storageBucket: '',
+     messagingSenderId: ''
    };
    Firebase.initializeApp(config);
   }
